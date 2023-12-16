@@ -10,3 +10,9 @@ def time():
 	string = strftime('%H:%M:%S %p') #tempo formatado
 	lbl.config(text = string) #configuração do texto
 	lbl.after(1000, time) #manipulação do tempo
+
+#instância para definir a interface
+lbl = Label(janela, font = ('arial', 40, 'bold'), #definição da fonte
+		background = 'white', #cor de fundo
+		foreground = 'black') #cor do primeiro plano
+
