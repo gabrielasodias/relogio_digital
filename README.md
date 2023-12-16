@@ -1,7 +1,7 @@
-#Bem-vindo! Esse é o meu primeiro repositório.
+# Relógio digital com python
+Bem-vindo! Esse é o meu primeiro repositório. Se trata de um projeto de um relógio digital simples com python.
 
-Projeto de um relógio digital simples com python
-
+## Descrição
 Foram utilizadas uma biblioteca de personalização de interface (tkinter, utilizado o módulo ttk) e uma biblioteca para manipulação das horas (time, utilizada a função strftime).
 Foi declarada uma função (time) para manipulação do tempo e também uma instância para definir a aparência, em seguida alinhada ao centro.
 Por fim, a função time foi chamada para dar início ao relógio.
