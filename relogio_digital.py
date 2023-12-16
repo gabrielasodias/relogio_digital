@@ -16,3 +16,6 @@ lbl = Label(janela, font = ('arial', 40, 'bold'), #definição da fonte
 		background = 'white', #cor de fundo
 		foreground = 'black') #cor do primeiro plano
 
+lbl.pack(anchor = 'center') #posicionando o rótulo ao centro da janela
+
+time() #chamando a função "time" para início do relógio
